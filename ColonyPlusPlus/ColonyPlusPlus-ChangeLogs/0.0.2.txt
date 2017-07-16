@@ -1,0 +1,11 @@
+Added:
+	* Wallpapered Walls
+		* Sakura
+		* Lyonette
+		* Subtle Stripe
+	* Wallpapered Corner Walls
+		* Sakura
+		* Lyonette
+		* Subtle Stripe
+Removed:
+	* Temporary wallpapered wall items

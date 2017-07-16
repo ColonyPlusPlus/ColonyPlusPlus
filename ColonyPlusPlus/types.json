@@ -198,8 +198,10 @@
   },
   "logtemperate": {
     "parentType": "log",
-    "sideall": "SELF",
-    "onRemoveAmount": 1
+    "sideall": "cppwood",
+    "onRemoveAmount": 1,
+    "sidey+": "cppwoodtop",
+    "sidey-": "cppwoodtop"
   },
   "logtaiga": {
     "parentType": "log",
@@ -610,10 +612,6 @@
     "isPlaceable": false,
     "nutritionalValue": 3
   },
-  "jambread": {
-    "isPlaceable": false,
-    "nutritionalValue": 4.5
-  },
   "arrow": {
     "isPlaceable": false,
     "npcLimit": 200,
@@ -696,5 +694,63 @@
     "sideall": "stonebricks",
     "sidex+": "ovenlitfront",
     "destructionTime": 1250
+  },
+  "jambread": {
+    "isPlaceable": false,
+    "nutritionalValue": 4.5
+  },
+  "wallpaper": {
+    "isPlaceable": false
+  },
+  "woodwallpaper1": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpapersakura"
+  },
+  "woodwallpaper2": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpaperlyonette"
+  },
+  "woodwallpaper3": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpapersubtlestripe"
+  },
+  "woodwallpaper1corner": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpapersakura",
+    "sidez+": "wallpapersakura"
+  },
+  "woodwallpaper2corner": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpaperlyonette",
+    "sidez+": "wallpaperlyonette"
+  },
+  "woodwallpaper3corner": {
+    "isPlaceable": true,
+    "isAutoRotatable": true,
+    "onRemoveAudio": "woodDeleteLight",
+    "onPlaceAudio": "woodPlace",
+    "sideall": "planks",
+    "sidex+": "wallpapersubtlestripe",
+    "sidez+": "wallpapersubtlestripe"
   }
 }
