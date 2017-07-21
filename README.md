@@ -4,6 +4,8 @@ ColonyPlusPlus is the first mod for [Colony Survival](http://store.steampowered.
 
 At the moment, the mod mainly sits as a base framework for other mods, while adding a few food items and recipes. In the future we plan to add over 200 items to the game with recipes, as well as balancing a lot of the game. Check out the [changelog](https://raw.githubusercontent.com/ColonyPlusPlus/ColonyPlusPlus/master/ColonyPlusPlus/gamedata/colonyplusplus-changelog.txt) for the latest changes.
 
+At the moment we're still using a few assets from the [Smooth Operator](https://mods.curse.com/texture-packs/minecraft/230576-smooth-operator) Minecraft texture pack! We'll be replacing those as soon as possible!
+
 ## How To Install
 
 Copy the contents of `/ColonyPlusPlus/gamedata` to the gamedata folder for Colony Survival. The game will then load the mod correctly!
