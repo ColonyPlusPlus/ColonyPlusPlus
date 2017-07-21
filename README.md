@@ -17,3 +17,11 @@ Copy the contents of `/ColonyPlusPlus/gamedata` to the gamedata folder for Colon
 - Click "Properties"
 - Navigate to the "Local Files" tab
 - Click "Browse Local Files..."
+
+## Getting Help
+
+If you want assistance with the mod, create an issue above or visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod.
+
+## How can I make my own mod?
+
+If you want to learn how to mod Colony Survival, you will first need to learn C#. The documentation for the game's modding API is pretty thin right now, but we have made our mod's source code publicly accessible [here](https://github.com/ColonyPlusPlus/ColonyPlusPlus-mod).
