@@ -1,6 +1,12 @@
 Version 0.1.0 (21-07-17):
 -------------------------------------
 
+Fix:
+- Simplified the structure of the mods folder
+
+Version 0.1.0 (21-07-17):
+-------------------------------------
+
 Added:
 - Numerous food items (butter/carrot/cheese/egg/jam/lettuce/milk/onion/potato/salt/sugar/sugarcane)
 - A few recipes (baked potato/cake/Jambread/omlette)
