@@ -1,8 +1,25 @@
-Version 0.1.0 (21-07-17):
+Version 0.1.2 (22-07-17):
 -------------------------------------
+Added:
+	Growable crops (without models right now)
+		- Potato
+		- Lettuce
+		- Carrot
+		- Onion
+	Salt drop from sand
+	Added some decorative clay blocks
 
-Fix:
-- Simplified the structure of the mods folder
+Fixed:
+	Textures on the furnace, Mint
+	Meshes for sugarcane
+
+
+
+Version 0.1.1 (21-07-17):
+-------------------------------------
+Fixed:
+- Repackaged release to fix some issues
+
 
 Version 0.1.0 (21-07-17):
 -------------------------------------
@@ -21,3 +38,4 @@ Changed:
 	- leaves now drop our custom feathers
 - Food values
 	- Wheat is now a weaker foodstuff, pushing you quickly to bread/better breads/ better foods
+
