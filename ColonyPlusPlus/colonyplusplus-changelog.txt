@@ -1,3 +1,44 @@
+Version 0.1.5 (28-07-17):
+-------------------------------------
+Added:
+	New Arrow Recipe
+		1 - Plank, Feather, Iron Ingot = 12 arrows
+	Rotatable clay blocks
+		Two Step Stairs
+		Four Step Stairs
+		Slope Inside Corner
+	Can now change between the two cube logs
+	Now start with 2 bows and 4 flax seeds
+	The ability to claim chunks, 
+		However we can not stop other players from placing blocks in those chunks at this time.
+		Requires "chunk.claim" permission node, with /claimchunk and /unclaimchunk commands
+	Online (/online) command
+		Requires "online" permission node
+
+
+Changed:
+	Bow recipe has been changed to requires 2 flax
+	Food value of cake was increased from 6 to 15
+	Increased Dirt Maxstack from 50 to 100
+	All the clay decorative blocks are now smelted instead of NPC crafted
+	Butter is now NPC crafted instead of player crafted!
+
+Fixed:
+	Mint texture
+	Fixed missing milk, butter, cheese icons
+
+Version 0.1.4 (24-07-17):
+-------------------------------------
+Added:
+	Creative Mode cheat
+		Adds 1000 of everything into your stockpile
+		How to enable: /creative true
+		
+Fixed:
+	Cherry Sapling Mesh
+	Cherry Blossom Mesh
+	SlopedCorner Mesh
+
 Version 0.1.3 (23-07-17):
 -------------------------------------
 Added:
