@@ -20,7 +20,8 @@ Copy the contents of `/ColonyPlusPlus/gamedata` to the gamedata folder for Colon
 
 ## Getting Help
 
-If you want assistance with the mod, create an issue above or visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod.
+If you're stuck or would like to know how the mod works and what it offers, please refer first to [the Wiki](http://colonyplusplus.com). If you can't find the information you need and would like direct assistance with the mod, visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod.
+
 
 ## How can I make my own mod?
 
