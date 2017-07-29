@@ -8,6 +8,7 @@ At the moment we're still using a few assets from the [Smooth Operator](https://
 
 ## Contents
 - [Installation Instructions]({{ site.baseurl }}/installation)
+- [Chat Commands]({{ site.baseurl }}/commands)
 
 ## Getting Help
 
