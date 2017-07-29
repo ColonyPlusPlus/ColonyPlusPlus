@@ -6,17 +6,8 @@ At the moment, the mod mainly sits as a base framework for other mods, while add
 
 At the moment we're still using a few assets from the [Smooth Operator](https://mods.curse.com/texture-packs/minecraft/230576-smooth-operator) Minecraft texture pack! We'll be replacing those as soon as possible!
 
-## How To Install
-
-Copy the contents of `/ColonyPlusPlus/gamedata` to the gamedata folder for Colony Survival. The game will then load the mod correctly!
-
-#### How do I get to the game directory?
-
-- Navigate to your Steam Library
-- Right click on Colongy Survival
-- Click "Properties"
-- Navigate to the "Local Files" tab
-- Click "Browse Local Files..."
+## Contents
+- [Installation Instructions]({{ site.baseurl }}/installation.md)
 
 ## Getting Help
 
