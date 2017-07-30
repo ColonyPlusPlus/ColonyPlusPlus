@@ -20,9 +20,15 @@ This requires the `online` permissions node.
 
 ### Sending items to players
 
-To send an item to a player, use the command `/trade {playername} {type} {amount}`.
+To send an item to a player, use the command `/trade give {playername} {type} {amount}`.
 
-*Note: Currently player names with a space in will not work!*
+### Sending Trades
+
+To send a player a trade, use the command `/trade give {playername} {offertype} {offeramount} {requesttype} {requestamount}`
+
+#### Spaces in names
+
+If the player you're sending to has a space in their name, add quotes around it like this: `"Player Name"`
 
 ## Chunk Commands
 
