@@ -1,3 +1,27 @@
+Version 0.1.6 (30-07-17):
+-------------------------------------
+Added:
+	Upsidedown versions of the slope blocks!
+	Trading!
+		/trade playerID itemID amount
+	
+Changed:
+	Removed texturemaping from .json and put it in code!
+	Chunk commands:
+		They have been replaced with the following commands
+		/chunk claim	- replaced /claimchunk
+		/chunk unclaim	- replaced /unclaimchunk
+		/chunk delete	- for admins to unclaim chunks to stop someone from griefing
+	
+Fixed:
+	Cheese can now be NPC crafted!
+	Butter can now be NPC crafted!
+	
+NOTICE: 
+	This will be the last version compatible with Colony Survival 0.2.7
+	We are going to start working on compatible for 0.3.0 for from this point on.
+
+
 Version 0.1.5 (28-07-17):
 -------------------------------------
 Added:

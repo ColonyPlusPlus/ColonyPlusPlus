@@ -4,6 +4,7 @@ ColonyPlusPlus adds a number of commands to the game to add additional functiona
 
 ## Contents
 - [General Commands](#general-commands)
+- [Trade Commands](#trade-commands)
 - [Chunk Commands](#chunk-commands)
 
 
@@ -14,6 +15,14 @@ ColonyPlusPlus adds a number of commands to the game to add additional functiona
 To get the player list you can use the `/online` command. This will print the list of currently online players in your chat window.
 
 This requires the `online` permissions node.
+
+## Trade Commands
+
+### Sending items to players
+
+To send an item to a player, use the command `/trade {playername} {type} {amount}`.
+
+*Note: Currently player names with a space in will not work!*
 
 ## Chunk Commands
 
