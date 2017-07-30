@@ -4,4 +4,4 @@ ColonyPlusPlus adds a number of types to the game. This list may be incomplete, 
 
 | Icon        | Type ID           | Description  |
 | ------------- |:-------------:| :-----|{% for type in site.data.types %}
-| <img href="https://github.com/ColonyPlusPlus/ColonyPlusPlus/blob/master/ColonyPlusPlus/textures/icons/clayblocklimecurve.png?raw=true">     | `{{type.id}}` | {{type.description}} |{% endfor %}
+| <img src="https://raw.githubusercontent.com/ColonyPlusPlus/ColonyPlusPlus/master/ColonyPlusPlus/textures/icons/{{type.id}}.png">     | `{{type.id}}` | {{type.description}} |{% endfor %}
