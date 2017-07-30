@@ -18,11 +18,23 @@ This requires the `online` permissions node.
 
 ## Trade Commands
 
+Trade commands can be used to swap items with other players, at least until trading is added to the base game. If you want a list of type ID's, you can find them [here]({{ site.baseurl }}/types).
+
 ### Sending items to players
 
-To send an item to a player, use the command `/trade {playername} {type} {amount}`.
+To send an item to a player, use the command `/trade give {playername} {type} {amount}`.
 
-*Note: Currently player names with a space in will not work!*
+### Trading with other players
+
+You can trade with other palyers (trading some of your items for theirs) using the following command:
+
+`/trade send {playername} {myitemid} {myitemamount} {theiritemid} {theiritemamount}`
+
+### Accepting and rejecting trade requests
+
+You can accept or decline a trade request by using `/trade accept` or `/trade reject`. You can only have 1 open trade request at a time.
+
+
 
 ## Chunk Commands
 
