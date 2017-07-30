@@ -2,8 +2,8 @@
 
 ColonyPlusPlus adds a number of types to the game. This list may be incomplete, as new blocks are added with almost every release.
 
-{% foreach type in data.types %}
+{% for type in data.types %}
 
 {{type.id}}
 
-{% endforeach %}
+{% endfor %}
