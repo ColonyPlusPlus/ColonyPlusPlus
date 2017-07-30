@@ -13,7 +13,7 @@ At the moment we're still using a few assets from the [Smooth Operator](https://
 
 ## Getting Help
 
-If you want assistance with the mod, create an issue above or visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod.
+If you want assistance with the mod, create an issue above or visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod. Alternatively, check out our [Discord Channel](https://discord.gg/mD5vGwp)
 
 ## How can I make my own mod?
 
