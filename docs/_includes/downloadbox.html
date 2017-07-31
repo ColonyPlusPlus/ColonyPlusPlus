@@ -1,12 +1,13 @@
 {% capture internal_name %}{{ site.github.latest_release.name }}{% endcapture %}
 {% capture internal_url %}{{ site.github.latest_release.assets[0].browser_download_url }}{% endcapture %}
 {% capture internal_count %}{{ site.github.latest_release.assets[0].download_count }}{% endcapture %}
+{% capture internal_created %}{{ site.github.latest_release.assets[0].created_at }}{% endcapture %}
 
 
 
 <div class="download-box">
 <h2>Latest Release</h2>
-<p>{{ internal_name }}</p>
+<p>{{ internal_name }} ({{ internal_created }})</p>
 <p class="download-button">
 	<a href="{{ internal_url }}" class="btn">Download</a>
 </p>
