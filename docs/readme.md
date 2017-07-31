@@ -6,6 +6,10 @@ At the moment, the mod mainly sits as a base framework for other mods, while add
 
 At the moment we're still using a few assets from the [Smooth Operator](https://mods.curse.com/texture-packs/minecraft/230576-smooth-operator) Minecraft texture pack! We'll be replacing those as soon as possible!
 
+## Download
+
+{% include downloadbox.html download_count=10 version_name=test download_url=123  %}
+
 ## Contents
 - [Installation Instructions]({{ site.baseurl }}/installation)
 - [Chat Commands]({{ site.baseurl }}/commands)
