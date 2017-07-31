@@ -351,4 +351,24 @@ a {
     border-radius: 5px;
     padding: 20px;
     background-color: rgba(245, 245, 245, 0.66);
+
+    a {
+      padding: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #159957;
+      background: linear-gradient(0deg, rgba(0, 145, 91, 0.7), rgba(0, 109, 126, 0.83)) no-repeat center;
+      margin-left: 10px;
+    
+      &:hover {
+        text-decoration: none;
+        background: linear-gradient(0deg, rgba(0, 145, 91, 0.5), rgba(0, 109, 126, 0.63)) no-repeat center;
+      }
+    }
+
+    p.small {
+      font-size: 0.7em;
+      color: #a1a1a1;
+    }
 }
