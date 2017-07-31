@@ -347,28 +347,18 @@ a {
 }
 
 .download-box {
-    border: 1px solid rgba(168, 175, 177, 0.57);
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgba(245, 245, 245, 0.66);
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background: linear-gradient(120deg, rgba(0,145,60,0.7), rgba(0,91,126,0.83)),url(/assets/img/background.jpg) no-repeat center;
+    background-size: cover;
 
-    a {
-      padding: 10px;
-      display: inline-block;
-      border-radius: 5px;
+    h2 {
       color: #fff;
-      background-color: #159957;
-      background: linear-gradient(0deg, rgba(0, 145, 91, 0.7), rgba(0, 109, 126, 0.83)) no-repeat center;
-      margin-left: 10px;
-    
-      &:hover {
-        text-decoration: none;
-        background: linear-gradient(0deg, rgba(0, 145, 91, 0.5), rgba(0, 109, 126, 0.63)) no-repeat center;
-      }
     }
 
     p.small {
       font-size: 0.7em;
-      color: #a1a1a1;
+      color: #fff;
     }
 }
