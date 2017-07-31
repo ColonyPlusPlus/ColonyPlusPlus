@@ -8,7 +8,7 @@ At the moment we're still using a few assets from the [Smooth Operator](https://
 
 ## Download
 
-{% include downloadbox.html download_count=10 version_name=test download_url=123  %}
+{% include downloadbox.html %}
 
 ## Contents
 - [Installation Instructions]({{ site.baseurl }}/installation)

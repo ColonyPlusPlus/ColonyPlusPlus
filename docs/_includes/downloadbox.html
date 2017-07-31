@@ -1,6 +1,12 @@
+{% capture internal_name %}{{ site.github.latest_release.name }}{% endcapture %}
+{% capture internal_url %}{{ site.github.latest_release.assets[0].browser_download_url }}{% endcapture %}
+{% capture internal_count %}{{ site.github.latest_release.assets[0].download_count }}{% endcapture %}
+
+
+
 <div class="download-box">
-{{ include.version_name }} <a href="{{ include.download_url }}">Download</a>
+{{ internal_name }} <a href="{{ internal_url }}">Download</a>
 <p class="small">
-This has been downloaded {{ include.download_count }} times.
+This has been downloaded {{ internal_count }} times.
 </p>
 </div>
