@@ -345,3 +345,10 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+.download-box {
+    border: 1px solid rgba(168, 175, 177, 0.57);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.66);
+}
