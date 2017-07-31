@@ -1,4 +1,4 @@
-{% foreach release in site.github.releases %}
+{% for release in site.github.releases %}
 	## {{ release.name }}
 
 	```
