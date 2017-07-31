@@ -3,6 +3,6 @@
 
 	{{ release.body }}
 	
-	<a href="" class="download button"> {{ release["download_count"] }}</a>
+	<a href="" class="download button"> {{ release.download_count }}</a>
 
 {% endfor %}
