@@ -1,4 +1,4 @@
-{{ site.github.latest_release }}
+{{ site.github }}
 
 
 Version 0.1.6 (30-07-17):
