@@ -14,7 +14,7 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <a href="http://colonyplusplus.com" class="btn">Documentation Home</a>
-      <a href="https://github.com/ColonyPlusPlus/ColonyPlusPlus/releases" class="btn">Latest Release</a>
+      <a href="{{ site.github.latest_release.assets[0].browser_download_url }}" target="_blank" class="btn">Download {{ site.github.latest_release.name }}</a>
       
         
       {% if site.github.is_project_page %}

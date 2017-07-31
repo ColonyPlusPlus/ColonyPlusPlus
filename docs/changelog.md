@@ -1,6 +1,3 @@
-{{ site.github.latest_release.assets[0].browser_download_url }}
-
-
 Version 0.1.6 (30-07-17):
 -------------------------------------
 ```
