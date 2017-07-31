@@ -10,6 +10,7 @@ At the moment we're still using a few assets from the [Smooth Operator](https://
 - [Installation Instructions]({{ site.baseurl }}/installation)
 - [Chat Commands]({{ site.baseurl }}/commands)
 - [New Types in ColonyPlusPlus]({{ site.baseurl }}/types)
+- [Changelog]({{ site.baseurl }}/changelog)
 
 ## Getting Help
 
