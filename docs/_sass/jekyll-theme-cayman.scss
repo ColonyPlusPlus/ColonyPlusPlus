@@ -351,8 +351,9 @@ a {
     text-align: center;
     background-color: #159957;
     background: linear-gradient(120deg, rgba(0,145,60,0.7), rgba(0,91,126,0.83)),url(/assets/img/background.jpg) no-repeat center;
-    background-size: cover;
+    background-size: cover;    
     padding: 20px;
+    border-radius: 10px;
 
     h2 {
       color: #fff;
