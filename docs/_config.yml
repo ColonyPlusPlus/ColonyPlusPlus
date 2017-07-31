@@ -1,6 +1,12 @@
 theme: jekyll-theme-cayman
 # Dependencies
-markdown:    kramdown
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
 permalink: pretty
 baseurl: /
