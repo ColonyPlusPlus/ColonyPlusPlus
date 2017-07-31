@@ -1,7 +1,7 @@
 {% for release in site.github.releases %}
 	<h1> {{ release.name }} </h1>
 
-	<div class="release-body">
+	<div class="release-body box">
 	{{ release.body }}
 	</div>
 	
