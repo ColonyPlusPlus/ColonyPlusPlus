@@ -358,8 +358,13 @@ a {
       color: #fff;
     }
 
+    p.download-button {
+      margin-bottom: 0;
+    }
+
     p.small {
       font-size: 0.7em;
       color: rgba(255, 255, 255, 0.73);
+      margin-top: 0;
     }
 }
