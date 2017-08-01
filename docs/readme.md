@@ -13,7 +13,7 @@ At the moment, the mod mainly sits as a base framework for other mods, while add
 	<a href="{{ site.baseurl }}/commands">Chat Commands</a>
 	<a href="{{ site.baseurl }}/types">New Types in ColonyPlusPlus</a>
 	<a href="{{ site.baseurl }}/changelog">Changelog</a>
-	<a href="{{ site.baseurl }}/versionhistory">Previous Releases</a>
+	<a href="{{ site.baseurl }}/releasehistory">Previous Releases</a>
 </div>
 ## Getting Help
 
