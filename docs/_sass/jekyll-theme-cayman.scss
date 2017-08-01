@@ -426,6 +426,12 @@ a {
     color: #fff;
     text-align: center;
   }
+
+  a:hover {
+    background-color: #159957;
+    background: linear-gradient(120deg, rgba(23, 202, 97, 0.71), rgba(16, 139, 186, 0.83)),url(/assets/img/background.jpg) no-repeat center;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 300px) {
