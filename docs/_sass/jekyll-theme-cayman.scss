@@ -375,8 +375,29 @@ a {
     background: #015165;
     padding: 10px;
     font-size: 0.8em;
+    margin-bottom: 0;
 
     &:hover {
       background: #127070;
     }
+}
+
+.dl-btn+.dl-btn {
+    margin-left: 0px;
+}
+
+.dl-list {
+  table {
+    thead {
+      tr {
+        th {
+          width: 25%;
+        }
+
+        th:nth-of-type(0) {
+          width: 20%;
+        }
+      }
+    }
+  }
 }
