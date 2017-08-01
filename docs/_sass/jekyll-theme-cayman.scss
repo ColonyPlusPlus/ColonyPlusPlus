@@ -371,5 +371,12 @@ a {
 }
 
 .dl-btn {
-  width: auto;
+    width: auto;
+    background: #015165;
+    padding: 10px;
+    font-size: 0.8em;
+
+    &:hover {
+      background: #127070;
+    }
 }
