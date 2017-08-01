@@ -15,25 +15,25 @@ var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
         labels: [
-        	{% for release in site.github.releases %}
+        	{% for release in site.github.releases reversed %}
         	"{{release.tag_name}}",
         	{% endfor %}
         	],
         datasets: [{
-            label: '# of Votes',
+            label: '# of Downloads',
             data: [
-        	{% for release in site.github.releases %}
-        	"{{release.assets[0].download_count}}",
-        	{% endfor %}
-        	],
+	        	{% for release in site.github.releases reversed %}
+	        	"{{release.assets[0].download_count}}",
+	        	{% endfor %}
+	        	],
             backgroundColor: [
-            {% for release in site.github.releases %}
-        	'rgba(1, 81, 101, 0.69)',
-        	{% endfor %}               
-            ],
+	            {% for release in site.github.releases reversed %}
+	        	'rgba(1, 81, 101, 0.3)',
+	        	{% endfor %}               
+	            ],
             borderColor: [
-	            {% for release in site.github.releases %}
-	        	'rgba(1, 81, 101, 1)',
+	            {% for release in site.github.releases reversed %}
+	        	'rgba(1, 81, 101, 0.65)',
 	        	{% endfor %}     
             ],
             borderWidth: 1
