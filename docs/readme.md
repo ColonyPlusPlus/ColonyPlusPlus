@@ -9,11 +9,13 @@ At the moment, the mod mainly sits as a base framework for other mods, while add
 
 ## Contents
 <div class="contents">
-- [Installation Instructions]({{ site.baseurl }}/installation)
-- [Chat Commands]({{ site.baseurl }}/commands)
-- [New Types in ColonyPlusPlus]({{ site.baseurl }}/types)
-- [Changelog]({{ site.baseurl }}/changelog)
-- [Previous Releases]({{ site.baseurl }}/versionhistory)
+	<ul>
+		<li><a href="{{ site.baseurl }}/installation">Installation Instructions</a></li>
+		<li><a href="{{ site.baseurl }}/commands">Chat Commands</a></li>
+		<li><a href="{{ site.baseurl }}/types">New Types in ColonyPlusPlus</a></li>
+		<li><a href="{{ site.baseurl }}/changelog">Changelog</a></li>
+		<li><a href="{{ site.baseurl }}/versionhistory">Previous Releases</a></li>
+	</ul>
 </div>
 ## Getting Help
 
