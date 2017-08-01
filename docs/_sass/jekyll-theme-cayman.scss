@@ -320,9 +320,12 @@ a {
 }
 
 .site-footer {
-  padding-top: 2rem;
+  padding: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px $hr-border-color;
+  text-align: center;
+  border-top: solid 1px #eff0f1;
+  background: #008080;
+  color: #fff;
 
   @include large {
     font-size: 1rem;
