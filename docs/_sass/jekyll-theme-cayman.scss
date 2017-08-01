@@ -320,13 +320,19 @@ a {
 }
 
 .site-footer {
-  padding: 2rem;
+    padding: 2rem;
   margin-top: 2rem;
   text-align: center;
   border-top: solid 1px #eff0f1;
-  background: #008080;
   color: #fff;
+  background-color: #159957;
+  background: linear-gradient(120deg, rgba(0,145,60,0.7), rgba(0,91,126,0.83)),url(/assets/img/background.jpg) no-repeat center;
+  background-size: cover;
 
+  a {
+      color: #dee8dd;
+  }
+  
   @include large {
     font-size: 1rem;
   }
