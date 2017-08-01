@@ -4,7 +4,7 @@
 
 | Version              | Date                                           | Downloads                  | Links |
 | -------------------- |:----------------------------------------------:| :------------------------: | :---- |{% for release in site.github.releases %}
-| {{release.tag_name}} | {{ release.created_at | date_to_long_string }} | {{release.assets[0].download_count}} | <a href="{{release.html_url}}" class="dl-btn btn"><i class="fa fa-list"></i> Changelog</a> <a href="{{release.assets[0].browser_download_url}}" class="dl-btn btn"><i class="fa fa-download"></i> Download</a>      |{% endfor %}
+| <strong>{{release.tag_name}}</strong> | <em>{{ release.created_at | date_to_long_string }}</em> | {{release.assets[0].download_count}} | <a href="{{release.html_url}}" class="dl-btn btn"><i class="fa fa-list"></i> Changelog</a> <a href="{{release.assets[0].browser_download_url}}" class="dl-btn btn"><i class="fa fa-download"></i> Download</a>      |{% endfor %}
 
 ## Release Download History
 
