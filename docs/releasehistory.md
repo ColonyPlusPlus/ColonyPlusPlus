@@ -8,7 +8,7 @@
 
 ## Release Download History
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="400" height="200"></canvas>
 <script>
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
@@ -28,12 +28,12 @@ var myChart = new Chart(ctx, {
 	        	],
             backgroundColor: [
 	            {% for release in site.github.releases reversed %}
-	        	'rgba(1, 81, 101, 0.3)',
+	        	'rgba(1, 81, 101, 0.5)',
 	        	{% endfor %}               
 	            ],
             borderColor: [
 	            {% for release in site.github.releases reversed %}
-	        	'rgba(1, 81, 101, 0.65)',
+	        	'rgba(1, 81, 101, 0.75)',
 	        	{% endfor %}     
             ],
             borderWidth: 1
