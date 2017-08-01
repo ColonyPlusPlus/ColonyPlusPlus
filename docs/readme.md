@@ -8,11 +8,13 @@ At the moment, the mod mainly sits as a base framework for other mods, while add
 {% include downloadbox.html %}
 
 ## Contents
+<div class="contents">
 - [Installation Instructions]({{ site.baseurl }}/installation)
 - [Chat Commands]({{ site.baseurl }}/commands)
 - [New Types in ColonyPlusPlus]({{ site.baseurl }}/types)
 - [Changelog]({{ site.baseurl }}/changelog)
-
+- [Previous Releases]({{ site.baseurl }}/versionhistory)
+</div>
 ## Getting Help
 
 If you want assistance with the mod, create an issue above or visit the [steam forum thread](http://steamcommunity.com/app/366090/discussions/8/1458455461483481740/) for the mod. Alternatively, check out our [Discord Channel](https://discord.gg/mD5vGwp)
