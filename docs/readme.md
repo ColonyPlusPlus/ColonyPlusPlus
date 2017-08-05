@@ -2,7 +2,7 @@
 
 ColonyPlusPlus is the first mod for [Colony Survival](http://store.steampowered.com/app/366090/Colony_Survival/) to use the C# modding API. We're working closely with the developers of the game to get the modding API fleshed out, while also adding some much needed content to the game.
 
-At the moment, the mod mainly sits as a base framework for other mods, while adding a few food items and recipes. In the future we plan to add over 200 items to the game with recipes, as well as balancing a lot of the game. Check out the [changelog]({{ site.baseurl }}/changelog) for the latest changes.
+We have currently added over 100 blocks to the game, and plan to add hundreds more, as well as new jobs for your colonists to create new crafting chains, as well as balancing a lot of the game. Check out the [changelog]({{ site.baseurl }}/changelog) for the latest changes.
 
 
 {% include downloadbox.html %}
