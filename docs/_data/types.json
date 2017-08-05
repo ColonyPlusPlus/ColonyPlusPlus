@@ -957,7 +957,7 @@
 		"name" : "wildberrybush",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -965,7 +965,7 @@
 		"name" : "sugarcane",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -973,7 +973,7 @@
 		"name" : "vegetablepatch",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -981,7 +981,7 @@
 		"name" : "logcube",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "logcubetemperate.png",
@@ -1005,7 +1005,7 @@
 		"name" : "logcuberotated",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "logcubetemperaterotated.png",
@@ -1021,7 +1021,7 @@
 		"name" : "logcubetemperaterotatedx",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -1029,7 +1029,7 @@
 		"name" : "logcubetemperaterotatedz",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "logcubetaigarotated.png",
@@ -1045,7 +1045,7 @@
 		"name" : "logcubetaigarotatedx",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -1053,7 +1053,7 @@
 		"name" : "logcubetaigarotatedz",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "clayblock.png",
@@ -8789,7 +8789,7 @@
 		"name" : "carrotstage2",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -8797,7 +8797,7 @@
 		"name" : "carrotstage3",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "lettuce.png",
@@ -8813,7 +8813,7 @@
 		"name" : "lettucestage2",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -8821,7 +8821,7 @@
 		"name" : "lettucestage3",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "potato.png",
@@ -8837,7 +8837,7 @@
 		"name" : "potatostage2",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -8845,7 +8845,7 @@
 		"name" : "potatostage3",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "onion.png",
@@ -8861,7 +8861,7 @@
 		"name" : "onionstage2",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	},
 	{
 		"icon" : "missing.png",
@@ -8869,6 +8869,6 @@
 		"name" : "onionstage3",
 		"newtype" : true,
 		"isplaceable" : false,
-		"isbaseblock" : true
+		"isbaseblock" : false
 	}
 ]
