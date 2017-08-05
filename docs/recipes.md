@@ -6,7 +6,7 @@ ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), m
 ## Contents
 <div class="contents">
   {% for craftingtype in site.data.craftingtypes %}
-  <a href="#{{craftingtype.title}}">Installation Instructions</a>
+  <a href="#{{craftingtype.title}}">{{craftingtype.title | capitalize}}</a>
   {% endfor %}
 </div>
 
