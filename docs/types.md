@@ -25,8 +25,9 @@ You can spawn items by first enabling cheats using `/cheats on` then using the l
     <tr>
       <td><img src="https://raw.githubusercontent.com/ColonyPlusPlus/ColonyPlusPlus/master/ColonyPlusPlus/textures/icons/{{type.icon}}"></td>
       <td style="text-align: center"><code class="highlighter-rouge">{{type.name}}</code></td>
-      <td style="text-align: left">{{site.data.typenames.leaves}}</td>
-      <td style="text-align: left">{{site.data.typeuses[type.name]}}</td>
+      {% assign name = type.name %}
+      <td style="text-align: left">{{site.data.typenames.[name]}}</td>
+      <td style="text-align: left">{{site.data.typeuses[name]}}</td>
     </tr>
     {% endif %}
     {% endfor %}
