@@ -1,0 +1,28 @@
+[
+	{
+		"type": "crafting",
+		"title": "crafting"
+	},
+	{
+		"type": "smelting",
+		"title": "smelting"
+	},
+	{
+		"type": "baking",
+		"title": "baking"
+	},
+	{
+		"type": "grinding",
+		"title": "grinding"
+	},
+	{
+		"type": "minting",
+		"title": "mintin
+		g"
+	},
+	{
+		"type": "shopping",
+		"title": "shopping"
+	},
+
+]

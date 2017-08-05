@@ -2,7 +2,10 @@
 
 ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), many of which can be crafted using the recipes below. 
 
-### Crafting
+
+{% for craftingtype in site.data.craftingtypes %}
+
+<h3>{{craftingtype.title}}</h3>
 
 <table>
   <thead>
@@ -16,7 +19,7 @@ ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), m
   <tbody>
   	{% for recipe in site.data.recipes %}
 
-  	{% if recipe.type == "crafting" %}
+  	{% if recipe.type == craftingtype.type %}
     <tr>
       <td>{{ site.data.typenames[recipe.mainresulttype]}}</td>
       <td style=""><code class="highlighter-rouge">{{recipe.playerCraftable}}</code></td>
@@ -36,3 +39,5 @@ ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), m
     {% endfor %}
   </tbody>
 </table>
+
+{% endfor %}
