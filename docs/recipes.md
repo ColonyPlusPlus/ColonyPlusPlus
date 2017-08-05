@@ -3,9 +3,16 @@
 ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), many of which can be crafted using the recipes below. 
 
 
+## Contents
+<div class="contents">
+  {% for craftingtype in site.data.craftingtypes %}
+  <a href="#{{craftingtype.title}}">Installation Instructions</a>
+  {% endfor %}
+</div>
+
 {% for craftingtype in site.data.craftingtypes %}
 
-<h3>{{craftingtype.title}}</h3>
+<h3>{{craftingtype.title | capitalize}}</h3>
 
 <table>
   <thead>
