@@ -12,7 +12,7 @@ ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), m
 
 {% for craftingtype in site.data.craftingtypes %}
 
-<h3>{{craftingtype.title | capitalize}}</h3>
+<h3 id="{{craftingtype.title}}">{{craftingtype.title | capitalize}}</h3>
 
 <table>
   <thead>
