@@ -20,12 +20,15 @@ You can spawn items by first enabling cheats using `/cheats on` then using the l
   </thead>
   <tbody>
   	{% for type in site.data.types %}
+
+  	{% if type.newtype == true and type.isbaseblock == true %}
     <tr>
       <td><img src="https://raw.githubusercontent.com/ColonyPlusPlus/ColonyPlusPlus/master/ColonyPlusPlus/textures/icons/{{type.icon}}"></td>
       <td style="text-align: center"><code class="highlighter-rouge">{{type.name}}</code></td>
       <td style="text-align: left">{{site.data.typenames[type.name]}}</td>
       <td style="text-align: left">{{site.data.typeuses[type.name]}}</td>
     </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
