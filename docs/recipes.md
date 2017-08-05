@@ -22,12 +22,12 @@ ColonyPlusPlus adds a number of [types to the game]({{ site.baseurl }}/types), m
       <td style=""><code class="highlighter-rouge">{{recipe.playerCraftable}}</code></td>
       
       <td style="text-align: left">
-        {% foreach req in recipe.requirements %}
+        {% for req in recipe.requirements %}
         <code class="highlighter-rouge">{{req.type}} x{{req.amount}}</code>
         {% endfor%}
       </td>
       <td style="text-align: left">
-        {% foreach req in recipe.results %}
+        {% for req in recipe.results %}
         <code class="highlighter-rouge">{{req.type}} x{{req.amount}}</code>
         {% endfor%}
       </td>
