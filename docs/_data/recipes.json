@@ -289,7 +289,7 @@
 	},
 	{
 		"fuelCost" : 0,
-		"playerCraftable" : false,
+		"playerCraftable" : true,
 		"type" : "masonry",
 		"requirements" : [{"type":"stoneblock","amount":1}],
 		"results" : [{"type":"stonebricks","amount":1}],
@@ -355,7 +355,7 @@
 		"fuelCost" : 0,
 		"playerCraftable" : true,
 		"type" : "crafting",
-		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"stonebricks","amount":1}],
 		"results" : [{"type":"potterytable","amount":1}],
 		"mainresulttype" : "potterytable"
 	},
@@ -363,7 +363,7 @@
 		"fuelCost" : 0,
 		"playerCraftable" : true,
 		"type" : "crafting",
-		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"stonebricks","amount":3}],
 		"results" : [{"type":"masontable","amount":1}],
 		"mainresulttype" : "masontable"
 	},
