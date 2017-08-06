@@ -2,7 +2,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":3},{"type":"straw","amount":3}],
 		"results" : [{"type":"bed","amount":1}],
 		"mainresulttype" : "bed"
@@ -10,7 +10,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":1}],
 		"results" : [{"type":"crate","amount":1}],
 		"mainresulttype" : "crate"
@@ -18,7 +18,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":1}],
 		"results" : [{"type":"quiver","amount":2}],
 		"mainresulttype" : "quiver"
@@ -26,7 +26,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":2},{"type":"flax","amount":2}],
 		"results" : [{"type":"bow","amount":1}],
 		"mainresulttype" : "bow"
@@ -34,7 +34,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "masonry",
 		"requirements" : [{"type":"stonebricks","amount":1}],
 		"results" : [{"type":"furnace","amount":1}],
 		"mainresulttype" : "furnace"
@@ -42,7 +42,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "masonry",
 		"requirements" : [{"type":"stonebricks","amount":1}],
 		"results" : [{"type":"oven","amount":1}],
 		"mainresulttype" : "oven"
@@ -50,7 +50,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"stonebricks","amount":1},{"type":"planks","amount":1}],
 		"results" : [{"type":"grindstone","amount":1}],
 		"mainresulttype" : "grindstone"
@@ -58,7 +58,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"logtemperate","amount":1}],
 		"results" : [{"type":"planks","amount":4}],
 		"mainresulttype" : "planks"
@@ -66,7 +66,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"logtaiga","amount":1}],
 		"results" : [{"type":"planks","amount":4}],
 		"mainresulttype" : "planks"
@@ -82,7 +82,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":1}],
 		"results" : [{"type":"workbench","amount":1}],
 		"mainresulttype" : "workbench"
@@ -90,15 +90,15 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1},{"type":"flax","amount":1}],
 		"results" : [{"type":"tailorshop","amount":1}],
 		"mainresulttype" : "tailorshop"
 	},
 	{
 		"fuelCost" : 0,
-		"playerCraftable" : true,
-		"type" : "crafting",
+		"playerCraftable" : false,
+		"type" : "blacksmithing",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1}],
 		"results" : [{"type":"arrow","amount":8}],
 		"mainresulttype" : "arrow"
@@ -106,7 +106,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "blacksmithing",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1}],
 		"results" : [{"type":"pickaxe","amount":1}],
 		"mainresulttype" : "pickaxe"
@@ -114,7 +114,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "blacksmithing",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1}],
 		"results" : [{"type":"axe","amount":1}],
 		"mainresulttype" : "axe"
@@ -122,7 +122,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1},{"type":"goldingot","amount":1}],
 		"results" : [{"type":"mint","amount":1}],
 		"mainresulttype" : "mint"
@@ -130,7 +130,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : true,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"goldcoin","amount":5},{"type":"planks","amount":1},{"type":"stonebricks","amount":1}],
 		"results" : [{"type":"shop","amount":1}],
 		"mainresulttype" : "shop"
@@ -146,7 +146,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "crafting",
+		"type" : "carpentry",
 		"requirements" : [{"type":"linseedoil","amount":1},{"type":"planks","amount":1}],
 		"results" : [{"type":"coatedplanks","amount":1}],
 		"mainresulttype" : "coatedplanks"
@@ -162,7 +162,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "crafting",
+		"type" : "masonry",
 		"requirements" : [{"type":"gypsum","amount":1},{"type":"stonebricks","amount":1}],
 		"results" : [{"type":"plasterblock","amount":1}],
 		"mainresulttype" : "plasterblock"
@@ -274,7 +274,7 @@
 	{
 		"fuelCost" : 0.2,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":3}],
 		"results" : [{"type":"bricks","amount":3}],
 		"mainresulttype" : "bricks"
@@ -282,7 +282,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "crafting",
+		"type" : "blacksmithing",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1},{"type":"feather","amount":1}],
 		"results" : [{"type":"arrow","amount":12}],
 		"mainresulttype" : "arrow"
@@ -353,8 +353,48 @@
 	},
 	{
 		"fuelCost" : 0,
+		"playerCraftable" : true,
+		"type" : "crafting",
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"results" : [{"type":"potterytable","amount":1}],
+		"mainresulttype" : "potterytable"
+	},
+	{
+		"fuelCost" : 0,
+		"playerCraftable" : true,
+		"type" : "crafting",
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"results" : [{"type":"masontable","amount":1}],
+		"mainresulttype" : "masontable"
+	},
+	{
+		"fuelCost" : 0,
+		"playerCraftable" : true,
+		"type" : "crafting",
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"results" : [{"type":"sawmill","amount":1}],
+		"mainresulttype" : "sawmill"
+	},
+	{
+		"fuelCost" : 0,
+		"playerCraftable" : true,
+		"type" : "crafting",
+		"requirements" : [{"type":"ironingot","amount":8}],
+		"results" : [{"type":"anvil","amount":1}],
+		"mainresulttype" : "anvil"
+	},
+	{
+		"fuelCost" : 0,
+		"playerCraftable" : true,
+		"type" : "crafting",
+		"requirements" : [{"type":"logtemperate","amount":1},{"type":"planks","amount":4},{"type":"straw","amount":3}],
+		"results" : [{"type":"chickencoop","amount":1}],
+		"mainresulttype" : "chickencoop"
+	},
+	{
+		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblock","amount":1}],
 		"mainresulttype" : "clayblock"
@@ -362,7 +402,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcurve","amount":1}],
 		"mainresulttype" : "clayblockcurve"
@@ -370,7 +410,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcurverotated","amount":1}],
 		"mainresulttype" : "clayblockcurverotated"
@@ -378,7 +418,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcurvecorner","amount":1}],
 		"mainresulttype" : "clayblockcurvecorner"
@@ -386,7 +426,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockslope","amount":1}],
 		"mainresulttype" : "clayblockslope"
@@ -394,7 +434,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockslopecorner","amount":1}],
 		"mainresulttype" : "clayblockslopecorner"
@@ -402,7 +442,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockslopeinsidecorner"
@@ -410,7 +450,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockupsidedownslope"
@@ -418,7 +458,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockupsidedownslopecorner"
@@ -426,7 +466,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockupsidedownslopeinsidecorner"
@@ -434,7 +474,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocktwostepstairs","amount":1}],
 		"mainresulttype" : "clayblocktwostepstairs"
@@ -442,7 +482,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockfourstepstairs"
@@ -450,7 +490,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblack","amount":1}],
 		"mainresulttype" : "clayblockblack"
@@ -458,7 +498,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackcurve","amount":1}],
 		"mainresulttype" : "clayblockblackcurve"
@@ -466,7 +506,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackcurverotated","amount":1}],
 		"mainresulttype" : "clayblockblackcurverotated"
@@ -474,7 +514,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackcurvecorner","amount":1}],
 		"mainresulttype" : "clayblockblackcurvecorner"
@@ -482,7 +522,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackslope","amount":1}],
 		"mainresulttype" : "clayblockblackslope"
@@ -490,7 +530,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackslopecorner","amount":1}],
 		"mainresulttype" : "clayblockblackslopecorner"
@@ -498,7 +538,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockblackslopeinsidecorner"
@@ -506,7 +546,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockblackupsidedownslope"
@@ -514,7 +554,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockblackupsidedownslopecorner"
@@ -522,7 +562,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockblackupsidedownslopeinsidecorner"
@@ -530,7 +570,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblacktwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockblacktwostepstairs"
@@ -538,7 +578,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblackfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockblackfourstepstairs"
@@ -546,7 +586,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblue","amount":1}],
 		"mainresulttype" : "clayblockblue"
@@ -554,7 +594,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbluecurve","amount":1}],
 		"mainresulttype" : "clayblockbluecurve"
@@ -562,7 +602,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbluecurverotated","amount":1}],
 		"mainresulttype" : "clayblockbluecurverotated"
@@ -570,7 +610,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbluecurvecorner","amount":1}],
 		"mainresulttype" : "clayblockbluecurvecorner"
@@ -578,7 +618,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueslope","amount":1}],
 		"mainresulttype" : "clayblockblueslope"
@@ -586,7 +626,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueslopecorner","amount":1}],
 		"mainresulttype" : "clayblockblueslopecorner"
@@ -594,7 +634,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockblueslopeinsidecorner"
@@ -602,7 +642,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockblueupsidedownslope"
@@ -610,7 +650,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockblueupsidedownslopecorner"
@@ -618,7 +658,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockblueupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockblueupsidedownslopeinsidecorner"
@@ -626,7 +666,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbluetwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockbluetwostepstairs"
@@ -634,7 +674,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbluefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockbluefourstepstairs"
@@ -642,7 +682,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrown","amount":1}],
 		"mainresulttype" : "clayblockbrown"
@@ -650,7 +690,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrowncurve","amount":1}],
 		"mainresulttype" : "clayblockbrowncurve"
@@ -658,7 +698,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrowncurverotated","amount":1}],
 		"mainresulttype" : "clayblockbrowncurverotated"
@@ -666,7 +706,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrowncurvecorner","amount":1}],
 		"mainresulttype" : "clayblockbrowncurvecorner"
@@ -674,7 +714,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownslope","amount":1}],
 		"mainresulttype" : "clayblockbrownslope"
@@ -682,7 +722,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockbrownslopecorner"
@@ -690,7 +730,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockbrownslopeinsidecorner"
@@ -698,7 +738,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockbrownupsidedownslope"
@@ -706,7 +746,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockbrownupsidedownslopecorner"
@@ -714,7 +754,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockbrownupsidedownslopeinsidecorner"
@@ -722,7 +762,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrowntwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockbrowntwostepstairs"
@@ -730,7 +770,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockbrownfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockbrownfourstepstairs"
@@ -738,7 +778,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyan","amount":1}],
 		"mainresulttype" : "clayblockcyan"
@@ -746,7 +786,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyancurve","amount":1}],
 		"mainresulttype" : "clayblockcyancurve"
@@ -754,7 +794,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyancurverotated","amount":1}],
 		"mainresulttype" : "clayblockcyancurverotated"
@@ -762,7 +802,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyancurvecorner","amount":1}],
 		"mainresulttype" : "clayblockcyancurvecorner"
@@ -770,7 +810,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanslope","amount":1}],
 		"mainresulttype" : "clayblockcyanslope"
@@ -778,7 +818,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanslopecorner","amount":1}],
 		"mainresulttype" : "clayblockcyanslopecorner"
@@ -786,7 +826,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockcyanslopeinsidecorner"
@@ -794,7 +834,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockcyanupsidedownslope"
@@ -802,7 +842,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockcyanupsidedownslopecorner"
@@ -810,7 +850,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockcyanupsidedownslopeinsidecorner"
@@ -818,7 +858,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyantwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockcyantwostepstairs"
@@ -826,7 +866,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockcyanfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockcyanfourstepstairs"
@@ -834,7 +874,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgray","amount":1}],
 		"mainresulttype" : "clayblockgray"
@@ -842,7 +882,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgraycurve","amount":1}],
 		"mainresulttype" : "clayblockgraycurve"
@@ -850,7 +890,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgraycurverotated","amount":1}],
 		"mainresulttype" : "clayblockgraycurverotated"
@@ -858,7 +898,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgraycurvecorner","amount":1}],
 		"mainresulttype" : "clayblockgraycurvecorner"
@@ -866,7 +906,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayslope","amount":1}],
 		"mainresulttype" : "clayblockgrayslope"
@@ -874,7 +914,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayslopecorner","amount":1}],
 		"mainresulttype" : "clayblockgrayslopecorner"
@@ -882,7 +922,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockgrayslopeinsidecorner"
@@ -890,7 +930,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockgrayupsidedownslope"
@@ -898,7 +938,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockgrayupsidedownslopecorner"
@@ -906,7 +946,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockgrayupsidedownslopeinsidecorner"
@@ -914,7 +954,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgraytwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockgraytwostepstairs"
@@ -922,7 +962,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgrayfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockgrayfourstepstairs"
@@ -930,7 +970,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreen","amount":1}],
 		"mainresulttype" : "clayblockgreen"
@@ -938,7 +978,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreencurve","amount":1}],
 		"mainresulttype" : "clayblockgreencurve"
@@ -946,7 +986,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreencurverotated","amount":1}],
 		"mainresulttype" : "clayblockgreencurverotated"
@@ -954,7 +994,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreencurvecorner","amount":1}],
 		"mainresulttype" : "clayblockgreencurvecorner"
@@ -962,7 +1002,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenslope","amount":1}],
 		"mainresulttype" : "clayblockgreenslope"
@@ -970,7 +1010,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenslopecorner","amount":1}],
 		"mainresulttype" : "clayblockgreenslopecorner"
@@ -978,7 +1018,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockgreenslopeinsidecorner"
@@ -986,7 +1026,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockgreenupsidedownslope"
@@ -994,7 +1034,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockgreenupsidedownslopecorner"
@@ -1002,7 +1042,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockgreenupsidedownslopeinsidecorner"
@@ -1010,7 +1050,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreentwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockgreentwostepstairs"
@@ -1018,7 +1058,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockgreenfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockgreenfourstepstairs"
@@ -1026,7 +1066,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblue","amount":1}],
 		"mainresulttype" : "clayblocklightblue"
@@ -1034,7 +1074,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightbluecurve","amount":1}],
 		"mainresulttype" : "clayblocklightbluecurve"
@@ -1042,7 +1082,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightbluecurverotated","amount":1}],
 		"mainresulttype" : "clayblocklightbluecurverotated"
@@ -1050,7 +1090,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightbluecurvecorner","amount":1}],
 		"mainresulttype" : "clayblocklightbluecurvecorner"
@@ -1058,7 +1098,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueslope","amount":1}],
 		"mainresulttype" : "clayblocklightblueslope"
@@ -1066,7 +1106,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueslopecorner","amount":1}],
 		"mainresulttype" : "clayblocklightblueslopecorner"
@@ -1074,7 +1114,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocklightblueslopeinsidecorner"
@@ -1082,7 +1122,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblocklightblueupsidedownslope"
@@ -1090,7 +1130,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblocklightblueupsidedownslopecorner"
@@ -1098,7 +1138,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightblueupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocklightblueupsidedownslopeinsidecorner"
@@ -1106,7 +1146,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightbluetwostepstairs","amount":1}],
 		"mainresulttype" : "clayblocklightbluetwostepstairs"
@@ -1114,7 +1154,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklightbluefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblocklightbluefourstepstairs"
@@ -1122,7 +1162,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklime","amount":1}],
 		"mainresulttype" : "clayblocklime"
@@ -1130,7 +1170,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimecurve","amount":1}],
 		"mainresulttype" : "clayblocklimecurve"
@@ -1138,7 +1178,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimecurverotated","amount":1}],
 		"mainresulttype" : "clayblocklimecurverotated"
@@ -1146,7 +1186,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimecurvecorner","amount":1}],
 		"mainresulttype" : "clayblocklimecurvecorner"
@@ -1154,7 +1194,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeslope","amount":1}],
 		"mainresulttype" : "clayblocklimeslope"
@@ -1162,7 +1202,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeslopecorner","amount":1}],
 		"mainresulttype" : "clayblocklimeslopecorner"
@@ -1170,7 +1210,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocklimeslopeinsidecorner"
@@ -1178,7 +1218,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblocklimeupsidedownslope"
@@ -1186,7 +1226,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblocklimeupsidedownslopecorner"
@@ -1194,7 +1234,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimeupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocklimeupsidedownslopeinsidecorner"
@@ -1202,7 +1242,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimetwostepstairs","amount":1}],
 		"mainresulttype" : "clayblocklimetwostepstairs"
@@ -1210,7 +1250,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocklimefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblocklimefourstepstairs"
@@ -1218,7 +1258,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagenta","amount":1}],
 		"mainresulttype" : "clayblockmagenta"
@@ -1226,7 +1266,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentacurve","amount":1}],
 		"mainresulttype" : "clayblockmagentacurve"
@@ -1234,7 +1274,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentacurverotated","amount":1}],
 		"mainresulttype" : "clayblockmagentacurverotated"
@@ -1242,7 +1282,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentacurvecorner","amount":1}],
 		"mainresulttype" : "clayblockmagentacurvecorner"
@@ -1250,7 +1290,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaslope","amount":1}],
 		"mainresulttype" : "clayblockmagentaslope"
@@ -1258,7 +1298,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaslopecorner","amount":1}],
 		"mainresulttype" : "clayblockmagentaslopecorner"
@@ -1266,7 +1306,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockmagentaslopeinsidecorner"
@@ -1274,7 +1314,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockmagentaupsidedownslope"
@@ -1282,7 +1322,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockmagentaupsidedownslopecorner"
@@ -1290,7 +1330,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentaupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockmagentaupsidedownslopeinsidecorner"
@@ -1298,7 +1338,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentatwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockmagentatwostepstairs"
@@ -1306,7 +1346,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockmagentafourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockmagentafourstepstairs"
@@ -1314,7 +1354,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorange","amount":1}],
 		"mainresulttype" : "clayblockorange"
@@ -1322,7 +1362,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangecurve","amount":1}],
 		"mainresulttype" : "clayblockorangecurve"
@@ -1330,7 +1370,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangecurverotated","amount":1}],
 		"mainresulttype" : "clayblockorangecurverotated"
@@ -1338,7 +1378,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangecurvecorner","amount":1}],
 		"mainresulttype" : "clayblockorangecurvecorner"
@@ -1346,7 +1386,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeslope","amount":1}],
 		"mainresulttype" : "clayblockorangeslope"
@@ -1354,7 +1394,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeslopecorner","amount":1}],
 		"mainresulttype" : "clayblockorangeslopecorner"
@@ -1362,7 +1402,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockorangeslopeinsidecorner"
@@ -1370,7 +1410,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockorangeupsidedownslope"
@@ -1378,7 +1418,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockorangeupsidedownslopecorner"
@@ -1386,7 +1426,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangeupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockorangeupsidedownslopeinsidecorner"
@@ -1394,7 +1434,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangetwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockorangetwostepstairs"
@@ -1402,7 +1442,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockorangefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockorangefourstepstairs"
@@ -1410,7 +1450,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpink","amount":1}],
 		"mainresulttype" : "clayblockpink"
@@ -1418,7 +1458,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkcurve","amount":1}],
 		"mainresulttype" : "clayblockpinkcurve"
@@ -1426,7 +1466,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkcurverotated","amount":1}],
 		"mainresulttype" : "clayblockpinkcurverotated"
@@ -1434,7 +1474,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkcurvecorner","amount":1}],
 		"mainresulttype" : "clayblockpinkcurvecorner"
@@ -1442,7 +1482,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkslope","amount":1}],
 		"mainresulttype" : "clayblockpinkslope"
@@ -1450,7 +1490,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkslopecorner","amount":1}],
 		"mainresulttype" : "clayblockpinkslopecorner"
@@ -1458,7 +1498,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockpinkslopeinsidecorner"
@@ -1466,7 +1506,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockpinkupsidedownslope"
@@ -1474,7 +1514,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockpinkupsidedownslopecorner"
@@ -1482,7 +1522,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockpinkupsidedownslopeinsidecorner"
@@ -1490,7 +1530,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinktwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockpinktwostepstairs"
@@ -1498,7 +1538,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpinkfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockpinkfourstepstairs"
@@ -1506,7 +1546,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurple","amount":1}],
 		"mainresulttype" : "clayblockpurple"
@@ -1514,7 +1554,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurplecurve","amount":1}],
 		"mainresulttype" : "clayblockpurplecurve"
@@ -1522,7 +1562,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurplecurverotated","amount":1}],
 		"mainresulttype" : "clayblockpurplecurverotated"
@@ -1530,7 +1570,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurplecurvecorner","amount":1}],
 		"mainresulttype" : "clayblockpurplecurvecorner"
@@ -1538,7 +1578,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleslope","amount":1}],
 		"mainresulttype" : "clayblockpurpleslope"
@@ -1546,7 +1586,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleslopecorner","amount":1}],
 		"mainresulttype" : "clayblockpurpleslopecorner"
@@ -1554,7 +1594,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockpurpleslopeinsidecorner"
@@ -1562,7 +1602,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockpurpleupsidedownslope"
@@ -1570,7 +1610,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockpurpleupsidedownslopecorner"
@@ -1578,7 +1618,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpleupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockpurpleupsidedownslopeinsidecorner"
@@ -1586,7 +1626,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurpletwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockpurpletwostepstairs"
@@ -1594,7 +1634,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockpurplefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockpurplefourstepstairs"
@@ -1602,7 +1642,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockred","amount":1}],
 		"mainresulttype" : "clayblockred"
@@ -1610,7 +1650,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredcurve","amount":1}],
 		"mainresulttype" : "clayblockredcurve"
@@ -1618,7 +1658,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredcurverotated","amount":1}],
 		"mainresulttype" : "clayblockredcurverotated"
@@ -1626,7 +1666,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredcurvecorner","amount":1}],
 		"mainresulttype" : "clayblockredcurvecorner"
@@ -1634,7 +1674,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredslope","amount":1}],
 		"mainresulttype" : "clayblockredslope"
@@ -1642,7 +1682,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredslopecorner","amount":1}],
 		"mainresulttype" : "clayblockredslopecorner"
@@ -1650,7 +1690,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockredslopeinsidecorner"
@@ -1658,7 +1698,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockredupsidedownslope"
@@ -1666,7 +1706,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockredupsidedownslopecorner"
@@ -1674,7 +1714,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockredupsidedownslopeinsidecorner"
@@ -1682,7 +1722,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredtwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockredtwostepstairs"
@@ -1690,7 +1730,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockredfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockredfourstepstairs"
@@ -1698,7 +1738,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilver","amount":1}],
 		"mainresulttype" : "clayblocksilver"
@@ -1706,7 +1746,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilvercurve","amount":1}],
 		"mainresulttype" : "clayblocksilvercurve"
@@ -1714,7 +1754,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilvercurverotated","amount":1}],
 		"mainresulttype" : "clayblocksilvercurverotated"
@@ -1722,7 +1762,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilvercurvecorner","amount":1}],
 		"mainresulttype" : "clayblocksilvercurvecorner"
@@ -1730,7 +1770,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverslope","amount":1}],
 		"mainresulttype" : "clayblocksilverslope"
@@ -1738,7 +1778,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverslopecorner","amount":1}],
 		"mainresulttype" : "clayblocksilverslopecorner"
@@ -1746,7 +1786,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocksilverslopeinsidecorner"
@@ -1754,7 +1794,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblocksilverupsidedownslope"
@@ -1762,7 +1802,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblocksilverupsidedownslopecorner"
@@ -1770,7 +1810,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblocksilverupsidedownslopeinsidecorner"
@@ -1778,7 +1818,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilvertwostepstairs","amount":1}],
 		"mainresulttype" : "clayblocksilvertwostepstairs"
@@ -1786,7 +1826,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblocksilverfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblocksilverfourstepstairs"
@@ -1794,7 +1834,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhite","amount":1}],
 		"mainresulttype" : "clayblockwhite"
@@ -1802,7 +1842,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhitecurve","amount":1}],
 		"mainresulttype" : "clayblockwhitecurve"
@@ -1810,7 +1850,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhitecurverotated","amount":1}],
 		"mainresulttype" : "clayblockwhitecurverotated"
@@ -1818,7 +1858,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhitecurvecorner","amount":1}],
 		"mainresulttype" : "clayblockwhitecurvecorner"
@@ -1826,7 +1866,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteslope","amount":1}],
 		"mainresulttype" : "clayblockwhiteslope"
@@ -1834,7 +1874,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteslopecorner","amount":1}],
 		"mainresulttype" : "clayblockwhiteslopecorner"
@@ -1842,7 +1882,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockwhiteslopeinsidecorner"
@@ -1850,7 +1890,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockwhiteupsidedownslope"
@@ -1858,7 +1898,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockwhiteupsidedownslopecorner"
@@ -1866,7 +1906,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhiteupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockwhiteupsidedownslopeinsidecorner"
@@ -1874,7 +1914,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhitetwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockwhitetwostepstairs"
@@ -1882,7 +1922,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockwhitefourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockwhitefourstepstairs"
@@ -1890,7 +1930,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellow","amount":1}],
 		"mainresulttype" : "clayblockyellow"
@@ -1898,7 +1938,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowcurve","amount":1}],
 		"mainresulttype" : "clayblockyellowcurve"
@@ -1906,7 +1946,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowcurverotated","amount":1}],
 		"mainresulttype" : "clayblockyellowcurverotated"
@@ -1914,7 +1954,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowcurvecorner","amount":1}],
 		"mainresulttype" : "clayblockyellowcurvecorner"
@@ -1922,7 +1962,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowslope","amount":1}],
 		"mainresulttype" : "clayblockyellowslope"
@@ -1930,7 +1970,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowslopecorner","amount":1}],
 		"mainresulttype" : "clayblockyellowslopecorner"
@@ -1938,7 +1978,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockyellowslopeinsidecorner"
@@ -1946,7 +1986,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowupsidedownslope","amount":1}],
 		"mainresulttype" : "clayblockyellowupsidedownslope"
@@ -1954,7 +1994,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowupsidedownslopecorner","amount":1}],
 		"mainresulttype" : "clayblockyellowupsidedownslopecorner"
@@ -1962,7 +2002,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowupsidedownslopeinsidecorner","amount":1}],
 		"mainresulttype" : "clayblockyellowupsidedownslopeinsidecorner"
@@ -1970,7 +2010,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowtwostepstairs","amount":1}],
 		"mainresulttype" : "clayblockyellowtwostepstairs"
@@ -1978,7 +2018,7 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "smelting",
+		"type" : "pottery",
 		"requirements" : [{"type":"clay","amount":1}],
 		"results" : [{"type":"clayblockyellowfourstepstairs","amount":1}],
 		"mainresulttype" : "clayblockyellowfourstepstairs"
@@ -2005,6 +2045,14 @@
 		"type" : "shopping",
 		"requirements" : [{"type":"goldcoin","amount":2}],
 		"results" : [{"type":"feather","amount":1}],
+		"mainresulttype" : "feather"
+	},
+	{
+		"fuelCost" : 0,
+		"playerCraftable" : false,
+		"type" : "chickenplucker",
+		"requirements" : [{"type":"straw","amount":1},{"type":"wheatstage1","amount":1}],
+		"results" : [{"type":"feather","amount":2}],
 		"mainresulttype" : "feather"
 	},
 	{

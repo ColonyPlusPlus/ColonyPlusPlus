@@ -23,5 +23,25 @@
 		"type": "shopping",
 		"title": "shopping"
 	},
+	{
+		"type": "pottery",
+		"title": "pottery"
+	},
+	{
+		"type": "carpentry",
+		"title": "carpentry"
+	},
+	{
+		"type": "masonry",
+		"title": "masonry"
+	},
+	{
+		"type": "smithing",
+		"title": "blacksmithing"
+	},
+	{
+		"type": "chickenplucker",
+		"title": "chicken keeping"
+	},
 
 ]
