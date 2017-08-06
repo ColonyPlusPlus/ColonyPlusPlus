@@ -1,3 +1,26 @@
+Version 0.2.0 (DD-MM-17): (Colony Survival 0.3.0)
+-------------------------------------
+Added:
+	CUSTOM JOBS!
+		Chicken plucker, Stonemason, Carpenter, Blacksmith, Potter
+	Can now enable or disable parts of the mod via the config.json file in the mod folder.
+	Message of the Day Feature.
+	Rotating Messages:
+		Rotates between messages after X seconds, both of these can be set in the config.json file
+	Version checking:
+		When you sign into the game it'll check if your running the newest version of the mod
+
+Changed:
+	Goldcoin Recipe is now 1 goldingot = 2 gold coins
+	Cake's food value increased to 25 from 15
+	Modded Crops now save on server shutdown before kicking out the players.
+		This should remove the lag of saving twice a second.
+	More Advanced Trade system!
+	Increased Brick, Dirt, Grass, Stone Bricks to match the new maxstack of the Base Game
+	Dozens of recipes changed to fit in the new jobs
+
+
+
 Version 0.1.6 (30-07-17):
 -------------------------------------
 Added:
