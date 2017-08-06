@@ -100,7 +100,7 @@
 		"playerCraftable" : false,
 		"type" : "blacksmithing",
 		"requirements" : [{"type":"planks","amount":1},{"type":"ironingot","amount":1}],
-		"results" : [{"type":"arrow","amount":8}],
+		"results" : [{"type":"arrow","amount":4}],
 		"mainresulttype" : "arrow"
 	},
 	{
@@ -290,18 +290,18 @@
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "shopping",
-		"requirements" : [{"type":"goldcoin","amount":3}],
-		"results" : [{"type":"grasstaiga","amount":10}],
-		"mainresulttype" : "grasstaiga"
+		"type" : "masonry",
+		"requirements" : [{"type":"stoneblock","amount":1}],
+		"results" : [{"type":"stonebricks","amount":1}],
+		"mainresulttype" : "stonebricks"
 	},
 	{
 		"fuelCost" : 0,
 		"playerCraftable" : false,
-		"type" : "crafting",
-		"requirements" : [{"type":"stoneblock","amount":1}],
-		"results" : [{"type":"stonebricks","amount":1}],
-		"mainresulttype" : "stonebricks"
+		"type" : "shopping",
+		"requirements" : [{"type":"goldcoin","amount":3}],
+		"results" : [{"type":"grasstaiga","amount":10}],
+		"mainresulttype" : "grasstaiga"
 	},
 	{
 		"fuelCost" : 0,
