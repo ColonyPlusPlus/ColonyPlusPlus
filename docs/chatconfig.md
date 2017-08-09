@@ -15,8 +15,6 @@ The following colours are valid:
 		</tr>
 	</thead>
 	<tbody>
-
-	</tbody>
 		<tr>
 			<td>aqua (same as cyan)</td>	
 			<td>#00ffffff</td> 
