@@ -83,7 +83,20 @@ First browse to the gamedata folder, as described in [the installation instructi
 
 ### Config Sections
 
-#### Message of the day (motd)
+<div class="contents">
+	<a href="#message-of-the-day">Message of the Day</a>
+	<a href="#rotating-messages">Rotating Messages</a>
+	<a href="#jobs">Jobs</a>
+	<a href="#spawn-protection">Spawn Protection</a>
+	<a href="#chunk-protection">Chunk Protection</a>
+	<a href="#debug">Debug</a>
+	<a href="#trade">Trade</a>
+	<a href="#chat">Chat</a>
+	<a href="#crops">Crops</a>
+	<a href="#colony">Colony</a>
+</div>
+
+#### Message of the Day
 
 To set a welcome message that appears to everyone who logs in to the server (or single player). 
 
