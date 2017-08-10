@@ -5,7 +5,7 @@ Copy the contents of the download to the gamedata folder for Colony Survival. Th
 #### How do I get to the gamedata directory?
 
 - Navigate to your Steam Library
-- Right click on Colongy Survival
+- Right click on Colony Survival
 - Click "Properties"
 - Navigate to the "Local Files" tab
 - Click "Browse Local Files..."
