@@ -149,6 +149,7 @@ This example above will allow up to 25 levels with a 2% boost in efficiency per 
 *Example Using the Above Settings*
 
 |	Level	|	XP Needed	|	Efficiency boost	|
+| :---		| :----:		| :----:				|
 |	1	|	20	|	2%	|
 |	2	|	40	|	4%	|
 |	3	|	80	|	6%	|
