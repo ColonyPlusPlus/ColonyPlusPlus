@@ -2,9 +2,9 @@
 
 A number of chat related features in ColonyPlusPlus now support colours and styles. This includes a few options set in the [config file]({{ site.baseurl }}/config)
 
-### Colours
+### Colors
 
-The following colours are valid:
+The following colors are valid:
 
 <table>
 	<thead>
@@ -127,3 +127,7 @@ The following colours are valid:
 		</tr>
 	</tbody>
 </table>
+
+### Styles
+
+Styles can also be applied to text. Options for this includes: `bold`, `italic`, `bolditalic`, `normal`.
