@@ -150,6 +150,7 @@ ColonyPlusPlus adds a number of jobs, and also adds an [XP system for NPCs]({{ s
 	"efficiencyPerLevel": 0.02
 },
 ```
+
 | Key 		| Type 		| Values 			|
 | :---  	| :----		| :----				|
 | `basexp`	| integer	| The amount of base XP needed per level	|
