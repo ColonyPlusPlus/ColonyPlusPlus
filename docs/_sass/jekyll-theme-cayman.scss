@@ -187,6 +187,13 @@ a {
     text-align: justify;
   }
 
+  .download-box {
+    p, h1, h2, h3 {
+      margin-bottom: 1em;
+      text-align: justify;
+    } 
+  }
+
   code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
