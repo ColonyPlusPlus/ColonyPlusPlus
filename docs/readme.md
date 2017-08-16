@@ -4,6 +4,8 @@ ColonyPlusPlus is the first mod for [Colony Survival](http://store.steampowered.
 
 We have currently added over 100 blocks to the game, and plan to add hundreds more, as well as new jobs for your colonists to create new crafting chains, as well as balancing a lot of the game. Check out the [changelog]({{ site.baseurl }}/changelog) for the latest changes.
 
+You will also need the [ColonyAPI](https://github.com/ColonyPlusPlus/ColonyAPI/releases/) in order to install our mods. Please ensure that is in the `gamedata/mods` folder (it installs like a regular mod).
+
 
 {% include downloadbox.html %}
 
