@@ -1,5 +1,73 @@
 Version 0.1.6 (30-07-17):
 -------------------------------------
+
+```** Colony Plus Plus Core:**
+
+Added:
+Custom Jobs
+	Chicken plucker
+		Requires: Chickencoop
+	Stonemason
+		Requires: Mason Table
+	Carpenter
+		Requires: Sawmill
+	Blacksmith
+		Requires: Anvil
+	Potter
+		Requires: Pottery Table
+	Well Operator
+		Requires: Well
+		
+Blocks
+	Anvil
+		Recipe: 8 Iron Ingot
+	Chickencoop
+		Recipe: 8 Planks, 9 Straw
+	Mason Table
+		Recipe: Temperate Log, 4 Planks, 3 Stone Brick
+	Pottery Table
+		Recipe: Temperate Log, 4 Planks, 1 Stone Brick
+	Sawmill
+		Recipe: 12 Planks, 1 Iron Ingot
+	Windows both single and two block high.
+	Well
+
+Localization
+	Started on de-DE(German Standard)
+	
+Features
+	Can now enable or disable parts of the mod via the config.json file in the mod folder.
+	NPC Jobs now gain XP and do their job faster!
+		
+New commands
+	/npc - Shows you the levels of your NPCs
+
+Changed:
+Goldcoin Recipe is now 1 goldingot = 2 gold coins
+Cake's food value increased to 25 from 15
+Modded Crops now save on server shutdown before kicking out the players.
+This should remove the lag of saving twice a second.
+More Advanced Trade system!
+Increased Brick, Dirt, Grass, Stone Bricks to match the new maxstack of the Base Game
+Dozens of recipes changed to fit in the new jobs
+Chunk Ownership
+	You are now notified if you enter your own chunk (makes finding them easier!)
+Grass
+	The sides now have a new texture
+
+** Colony Plus Plus Decorative **
+
+Added:
+	Moved the decorative blocks into ColonyPlusPlus-Decorative
+
+** Colony Plus Plus Utilities **
+
+Added:
+	A number of commands to the game related to: trading, administration, teleportation, chunk claiming, checking who's online, creative mode, inventory clearing.
+```
+
+Version 0.1.6 (30-07-17):
+-------------------------------------
 ```
 Added:
 	Upsidedown versions of the slope blocks!
