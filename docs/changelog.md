@@ -1,7 +1,8 @@
-Version 0.1.6 (30-07-17):
+Version 0.2.0_release (16-08-17):
 -------------------------------------
 
-```** Colony Plus Plus Core:**
+```
+** Colony Plus Plus Core:**
 
 Added:
 Custom Jobs
