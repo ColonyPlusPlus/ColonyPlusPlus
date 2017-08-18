@@ -1,3 +1,18 @@
+Version 0.2.0d (18-08-17):
+-------------------------------------
+```
+** Colony Plus Plus Core **
+
+Fixed:
+  	A number of recipes for baking
+
+
+** Colony Plus Plus Decorative **
+
+Fixed:
+    Added textures & meshes to correct mod after split
+```
+
 Version 0.2.0c (17-08-17):
 -------------------------------------
 ```
@@ -14,7 +29,6 @@ Fixed:
 
 Version 0.2.0_release (16-08-17):
 -------------------------------------
-
 ```
 ** Colony Plus Plus Core:**
 
