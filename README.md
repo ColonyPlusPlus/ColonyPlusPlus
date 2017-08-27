@@ -8,7 +8,8 @@ At the moment we're still using a few assets from the [Smooth Operator](https://
 
 ## How To Install
 
-Copy the contents of `/ColonyPlusPlus/gamedata` to the gamedata folder for Colony Survival. The game will then load the mod correctly!
+- Download latest version of the [ColonyAPI](https://github.com/ColonyPlusPlus/ColonyAPI/releases) and install it into `/gamedata/mods/ColonyAPI`
+- Download the ColonyPlusPlus mods you want from the [releases page](https://github.com/ColonyPlusPlus/ColonyPlusPlus/releases) and extract their contents to `/gamedata`
 
 #### How do I get to the game directory?
 
